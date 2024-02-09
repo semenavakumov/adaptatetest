@@ -160,7 +160,7 @@ footer{
 .footer_info__paragraf{
     padding-top: 2%;
     padding-bottom: 1%;
-    padding-left: 42%;
+    padding-left: 27%;
     width: 300px;
     text-align: center;
     font-size: 5px;
@@ -230,7 +230,7 @@ h5{
 
 @media (max-width: 767px) {
     header{
-        background-image: url("images/logotype/logotype_mobile.png");
+        background-image: url("images/logotype/logotype_noutbook.png");
         height: 150px;
         .header__div{
             padding-top: 15%;
@@ -239,6 +239,7 @@ h5{
     }
 
     main{
+        height: 1925px;
         .main__link{
             font-weight: 800;
             text-decoration: none;
@@ -255,72 +256,72 @@ h5{
             }
             .post_image_2{
                 height: 110px;
-                padding-left: 1%;
+                padding-left: 15%;
                 padding-top: 1%;
             }
             .post_image_3{
-                height: 225px;
-                padding-left: 10%;
-                padding-top: 1%;
-            }
-            .post_image_4{
-                height: 225px;
-                padding-left: 10.5%;
-                padding-top: 1%;
-            }
-            .post_image_5{
-                height: 225px;
-                padding-left: 8.5%;
-                padding-top: 1%;
-            }
-            .post_image_6{
-                height: 225px;
-                padding-left: 10%;
-                padding-top: 1%;
-            }
-            .post_image_7{
-                height: 225px;
-                padding-left: 10.5%;
-                padding-top: 1%;
-            }
-            .post_image_8{
-                height: 190px;
+                height: 160px;
                 padding-left: 2.5%;
                 padding-top: 1%;
             }
-            .post_image_9{
-                height: 225px;
-                padding-left: 6.5%;
-                padding-top: 1%;
-            }
-            .post_image_10{
-                height: 225px;
+            .post_image_4{
+                height: 140px;
                 padding-left: 8.5%;
                 padding-top: 1%;
             }
+            .post_image_5{
+                height: 140px;
+                padding-left: 7%;
+                padding-top: 1%;
+            }
+            .post_image_6{
+                height: 120px;
+                padding-left: 14.5%;
+                padding-top: 1%;
+            }
+            .post_image_7{
+                height: 120px;
+                padding-left: 14.5%;
+                padding-top: 1%;
+            }
+            .post_image_8{
+                height: 100px;
+                padding-left: 8.5%;
+                padding-top: 1%;
+            }
+            .post_image_9{
+                height: 120px;
+                padding-left: 11.5%;
+                padding-top: 1%;
+            }
+            .post_image_10{
+                height: 120px;
+                padding-left: 13%;
+                padding-top: 1%;
+            }
             .post_image_11{
-                height: 225px;
-                padding-left: 16%;
+                height: 120px;
+                padding-left: 20%;
                 padding-top: 1%;
             }
             .post_image_12{
-                height: 225px;
-                padding-left: 10.5%;
+                height: 120px;
+                padding-left: 14.5%;
                 padding-top: 1%;
             }
             .post_image_13{
-                height: 225px;
-                padding-left: 10.5%;
+                height: 120px;
+                padding-left: 14.5%;
                 padding-top: 1%;
             }
             .post_image_14{
-                height: 225px;
-                padding-left: 10.5%;
+                height: 120px;
+                padding-left: 14.5%;
                 padding-top: 1%;
             }
             .post_image_15{
-                height: 225px;
-                padding-left: 10.5%;
+                height: 120px;
+                padding-left: 14.5%;
                 padding-top: 1%;
             }
         }
@@ -339,7 +340,7 @@ h5{
                                  "post_13 post_14"
                                  "post_15";
             grid-template-columns: 315px 325px;
-            grid-template-rows:  318px 318px 318px 318px 318px 318px 318px 318px;
+            grid-template-rows:  240px 240px 240px 240px 240px 240px 240px 240px;
         }
         .main__link{
             font-size: smaller;
@@ -349,6 +350,126 @@ h5{
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 265px) {
+    header{
+        background-image: url("images/logotype/logotype_mobile.png");
+        height: 63px;
+        .header__div{
+            padding-top: 15%;
+            padding-left: 30%;
+        }
+    }
+
+    main{
+        height: 1925px;
+        .main__link{
+            font-weight: 800;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        .post_1{
+            height: 225px;
+            width: 300px;
+            padding: 1%;
+            .post_image_1{
+                height: 130px;
+                padding-left: 11.3%;
+                padding-top: 1%;
+            }
+            .post_image_2{
+                height: 110px;
+                padding-left: 15%;
+                padding-top: 1%;
+            }
+            .post_image_3{
+                height: 160px;
+                padding-left: 2.5%;
+                padding-top: 1%;
+            }
+            .post_image_4{
+                height: 140px;
+                padding-left: 8.5%;
+                padding-top: 1%;
+            }
+            .post_image_5{
+                height: 140px;
+                padding-left: 7%;
+                padding-top: 1%;
+            }
+            .post_image_6{
+                height: 120px;
+                padding-left: 14.5%;
+                padding-top: 1%;
+            }
+            .post_image_7{
+                height: 120px;
+                padding-left: 14.5%;
+                padding-top: 1%;
+            }
+            .post_image_8{
+                height: 100px;
+                padding-left: 8.5%;
+                padding-top: 1%;
+            }
+            .post_image_9{
+                height: 120px;
+                padding-left: 11.5%;
+                padding-top: 1%;
+            }
+            .post_image_10{
+                height: 120px;
+                padding-left: 13%;
+                padding-top: 1%;
+            }
+            .post_image_11{
+                height: 120px;
+                padding-left: 20%;
+                padding-top: 1%;
+            }
+            .post_image_12{
+                height: 120px;
+                padding-left: 14.5%;
+                padding-top: 1%;
+            }
+            .post_image_13{
+                height: 120px;
+                padding-left: 14.5%;
+                padding-top: 1%;
+            }
+            .post_image_14{
+                height: 120px;
+                padding-left: 14.5%;
+                padding-top: 1%;
+            }
+            .post_image_15{
+                height: 120px;
+                padding-left: 14.5%;
+                padding-top: 1%;
+            }
+        }
+        .main__grid_layout {
+            display: grid;
+            height: 300px;
+            padding-top: 1%;
+            padding-left: 0.5%;
+        
+            grid-template-areas: "post_1 post_2"
+                                 "post_3 post_4"
+                                 "post_5 post_6"
+                                 "post_7 post_8"
+                                 "post_9 post_10"
+                                 "post_11 post_12"
+                                 "post_13 post_14"
+                                 "post_15";
+            grid-template-columns: 315px 325px;
+            grid-template-rows:  240px 240px 240px 240px 240px 240px 240px 240px;
+        }
+        .main__link{
+            font-size: smaller;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        
+    }
 
 }
